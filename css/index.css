@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
+
+:root {
+    font-family: 'Nunito', sans-serif;
+    --main-color: #2b1911;
+    --accent-color: white;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 980px;
+    margin: auto;
+}
+
+.subheader {
+    background-image: url(../img/light-back.jpg);
+    background-size: cover;
+}
+
+
+.info ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 60px 0 60px;
+    height: 80px;
+    color: var(--main-color);
+    font-size: 1.2em;
+    font-weight: 400; 
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.selected {
+    color: #F9C504;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em white;
+}
+
+.header_body {
+  background-color: #F7F5EE;  
+  padding: 20px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #F7F5EE;
+    padding: 20px;
+    margin: 0;
+    padding-bottom: 0px;
+}
+
+header nav .navbar ul {
+    display: flex;
+    list-style-type: none;   
+}
+
+header nav .navbar ul a {
+    float: left;
+    margin: 0 20px;
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+header nav .logo img {
+    width: 250px;
+    height: 150px;
+    
+}
+
+.underline {
+    overflow: hidden;
+    background-color: #F7F5EE;
+  }
+  
+.underline a {
+    float: left;
+    padding: 14px 16px;
+    border-bottom: 3px solid transparent;
+  }
+  
+.underline a:hover {
+    border-bottom: 3px solid #F9C504;
+  }
+  
+.underline a.active {
+    border-bottom: 3px solid #F9C504;
+  }
+
+header nav .controls .btn {
+    display: inline-block;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: var(--main-color);
+    background-color: #F9C504;
+    border: none;
+    border-radius: 15px;
+}
+
+.controls .btn:hover {background-color: #F9C504}
+
+.controls .btn:active {
+    background-color: #F9C504;
+    transform: translateY(4px);
+}
+
+.controls .btn {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
+ header nav .controls .fa {
+     display: block;
+}
+
+.controls .btn {
+    display: flex;
+    flex-direction: column;
+}
+ 
+main .proposition {
+    background-image: url(../img/backgound2.jpg);
+    background-size: cover;
+    color: var(--main-color);
+    padding: 10em 5em 35em 5em;
+}
+
+.textcols-left {
+	float: left;
+    width: 48%;
+    background: rgba(247,245,238,0.7);
+    list-style-type: none;
+    font-size: 1.2em;
+    padding: 15px 0 10px 0;
+}
+.textcols-right {
+	margin-left: 52%;
+    background: rgba(247,245,238,0.7);
+    padding: 15px 8px 10px 8px;
+}
+
+.news {
+    padding: 5em 5em 35em 5em;
+}
+
+.carousel-container {
+    max-width: 500px;
+    margin: auto;
+    height: 20px;
+}
+
+main .textcols-item {
+    display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+    height: 48%;
+    background-color: #F7F5EE;
+    margin: 17px;
+    padding: 3em;
+}
+
+.textcols-item + .textcols-item {
+    margin-left: 4%;
+    background: rgba(247,245,238,0.5);
+    margin: 17px;
+}
+
+.crochet {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding: 0;
+}
+
+.divider {
+    height: 5px;
+    width: 70%;
+    position: relative;
+    border-top: 3px solid #F9C504;
+    margin: 0 10px 0 75px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.icon {
+    margin: 20px;
+}
+
+ 
+h1 {
+    color: var(--main-color);
+    font-size: 2rem;
+    font-weight: 700; 
+    text-align: center; 
+}
+
+h2 {
+    text-align: center;
+   color: var(--main-color);
+   font-size: 1.3em;
+   font-weight: 800;  
+}
+
+p {
+    padding: 15px 8px 10px 8px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.news img {
+   padding: 0.7rem;
+}
+
+.why-us {
+   background-image: url(../img/light-back.jpg);
+   box-shadow: inset 0 0 0 1000px rgba(242,237,232,0.5);
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 15em 0em 10em 0em;
+}
+
+.quote {
+    text-align: center;
+    font-weight: 600;
+    line-height: 2em;
+}
