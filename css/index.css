@@ -335,3 +335,64 @@ p {
    
 }
 
+#last-info {
+    background-color: var(--main-color);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 5px 0 5px;
+    border: 20px 5px 0 5px;
+    height: 90px;
+}
+
+.footer-logo {
+    display: flex;
+    float: left;
+    flex-direction: column;
+}
+
+.infobox {
+    display: flex;
+    float: right;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0 20px;
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 1em;
+    font-weight: 700;
+    padding-left: 0;
+}
+
+.infobox ul a {
+    display: flex;
+    float: right;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0 20px;
+    text-decoration: none;
+    color:#F9C504;
+}
+
+.column1, .column2, .column3 {
+    background: rgba(247,245,238,0.5);
+}
+
+.countdown {
+    display: block;
+    justify-content: space-around;
+    background-color: #F9C504;
+
+}
+
+
+
+#year .year{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
