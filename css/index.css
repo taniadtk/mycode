@@ -380,19 +380,33 @@ p {
     background: rgba(247,245,238,0.5);
 }
 
-.countdown {
-    display: block;
+#countdown {
     justify-content: space-around;
     background-color: #F9C504;
-
 }
 
-
-
-#year .year{
+.countdown-clock {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 7px 0 5px 30px;
 }
 
+.countdown-clock div {
+    background-color: #F9C504;
+    color: #ffffff;
+    width: 100px;
+    height: 105px;
+    border-radius: 5px;
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+
+ .small {
+     display: block;
+     align-items: center;
+ }
+
+ 
