@@ -50,6 +50,7 @@ header nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center; 
     background-color: #F7F5EE;
     padding: 20px;
@@ -60,18 +61,28 @@ header nav {
 .header_logo {
   padding-right: 0;
   padding: 0 0 0 0;
+  flex-wrap: wrap;
 }
 
 header nav .navbar ul {
     display: flex;
+    flex-wrap: wrap;
     list-style-type: none;  
     padding: 0 0 0 0; 
 }
+
+@media (min-width:610px){
+ header nav {
+     display: flex;
+ }
+}
+
  ul .menu-list {
     padding: 0 0 0 0;
  }
 
 .menu-list a {
+    flex-wrap: wrap;
     float: left;
     margin: 0 20px;
     text-decoration: none;
@@ -187,16 +198,6 @@ main .proposition {
 	margin-left: 52%;
     background: rgba(247,245,238,0.7);
     padding: 15px 8px 10px 8px;
-}
-
-.news {
-    padding: 5em 5em 35em 5em;
-}
-
-.carousel-container {
-    max-width: 500px;
-    margin: auto;
-    height: 20px;
 }
 
 main .textcols-item {
@@ -382,19 +383,18 @@ p {
 
 #countdown {
     justify-content: space-around;
-    background-color: #F9C504;
 }
 
 .countdown-clock {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 7px 0 5px 30px;
 }
 
 .countdown-clock div {
-    background-color: #F9C504;
-    color: #ffffff;
+    color: var(--main-color);
     width: 100px;
     height: 105px;
     border-radius: 5px;
@@ -409,4 +409,12 @@ p {
      align-items: center;
  }
 
+ .time {
+     width: 10px;
+     height: 20px;
+ }
  
+ .time {
+     padding: 5px 7px;
+     background-color: #F9C504
+ }
