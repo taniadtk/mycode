@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
+
+:root {
+    font-family: 'Nunito', sans-serif;
+    --main-color: #2b1911;
+    --accent-color: white;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 980px;
+    margin: auto;
+}
+
+.subheader {
+    background-image: url(../img/light-back.jpg);
+    background-size: cover;
+}
+
+.info ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 60px 0 60px;
+    height: 80px;
+    color: var(--main-color);
+    font-size: 1.2em;
+    font-weight: 400; 
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.selected {
+    color: #F9C504;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em white;
+}
+
+.header_body {
+  background-color: #F7F5EE;  
+  padding: 20px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center; 
+    background-color: #F7F5EE;
+    padding: 20px;
+    margin: 0;
+    padding-bottom: 0px;
+    padding: 0 0 0 0;
+}
+.header_logo {
+  padding-right: 0;
+  padding: 0 0 0 0;
+  flex-wrap: wrap;
+}
+
+header nav .navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;  
+    padding: 0 0 0 0; 
+}
+
+@media (min-width:610px){
+ header nav {
+     display: flex;
+ }
+}
+
+ ul .menu-list {
+    padding: 0 0 0 0;
+ }
+
+.menu-list a {
+    flex-wrap: wrap;
+    float: left;
+    margin: 0 20px;
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 1em;
+    font-weight: 700;
+    padding-left: 0;
+}
+
+.underline {
+    overflow: hidden;
+    background-color: #F7F5EE;
+  }
+  
+.underline a {
+    float: left;
+    padding: 14px 16px;
+    border-bottom: 3px solid transparent;
+  }
+  
+.underline a:hover {
+    border-bottom: 3px solid #F9C504;
+  }
+  
+.underline a.active {
+    border-bottom: 3px solid #F9C504;
+  }
+  
+.controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.controls .btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: var(--main-color);
+    background-color: #F9C504;
+    border: none;
+    border-radius: 15px;
+}
+
+.controls .btn:hover {background-color: #F9C504}
+
+.controls .btn:active {
+    background-color: #F9C504;
+    transform: translateY(4px);
+}
+
+.controls .btn {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
+ header nav .controls .fa {
+     display: block;
+}
+
+.controls .btn {
+    display: flex;
+    flex-direction: column;
+}

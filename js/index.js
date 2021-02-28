@@ -1,4 +1,3 @@
-
 const days = document.getElementById('days');
 const hours = document.getElementById('hours');
 const minutes = document.getElementById('minutes');
@@ -37,3 +36,8 @@ setTimeout(() => {
 // Run every second
 setInterval(updateCountdown, 1000);
 
+new ProductListHerbal(new Cart());
+new ProductListSupplements(new Cart());
+new ProductListSports(new Cart());
+new ProductListProbiotics(new Cart());
+new ProductListVitamins(new Cart());

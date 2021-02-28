@@ -12,12 +12,10 @@
     margin: auto;
 }
 
-
 .subheader {
     background-image: url(../img/light-back.jpg);
     background-size: cover;
 }
-
 
 .info ul{
     list-style-type: none;
@@ -499,3 +497,6 @@ p {
      padding: 5px 7px;
      background-color: #F9C504
  }
+
+
+ 
