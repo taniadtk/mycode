@@ -76,6 +76,22 @@ header nav .navbar ul {
  }
 }
 
+@media (min-width:750px){
+    header nav .navbar {
+        display: flex;
+        justify-content: space-between;
+    align-items: center;
+    }
+   }
+
+@media (min-width:750px){
+    header .controls .btn {
+        display: flex;
+        margin: auto;
+        width: 100%!important;
+    }
+   }
+
  ul .menu-list {
     padding: 0 0 0 0;
  }
